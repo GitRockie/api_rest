@@ -1,3 +1,5 @@
+import 'services/reqres_service.dart';
+
 void main() {
-  print('awesome: ');
+  ServiceRequestApi().getReqRespService();
 }
