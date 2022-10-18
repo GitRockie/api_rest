@@ -12,6 +12,7 @@ class ServiceRequestApi {
     print('awesome: Ya tengo mi Api!!');
     print(url);
     http.get(url).then((response) {
+      //rescatamos desde el Backend una respuesta
       print(response.body);
 
       final personsModel = PersonsModel.fromJson(jsonDecode(response.body));
