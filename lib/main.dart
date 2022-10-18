@@ -1,5 +1,6 @@
-import 'services/reqres_service.dart';
+import 'package:api_rest/services/restcountries_services.dart';
 
 void main() {
-  ServiceRequestApi().getReqRespService();
+  //ServiceRequestApi().getReqRespService();
+  ResCountriesServicesV3().getCountries();
 }
